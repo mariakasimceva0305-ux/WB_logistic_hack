@@ -1,0 +1,24 @@
+{
+  "synthetic_demo": true,
+  "cuts": [
+    "2025-01-13 00:00:00",
+    "2025-01-15 00:00:00",
+    "2025-01-17 00:00:00"
+  ],
+  "trailing_target_support_hours": 2,
+  "embargo_hours": 2,
+  "lookback": 24,
+  "horizon": 10,
+  "preprocessing": {
+    "cap": 166.08500000000004,
+    "mean": 87.19545266143106,
+    "std": 33.865974044599206
+  },
+  "windows": {
+    "train": 4320,
+    "validation": 72,
+    "calibration": 72,
+    "test": 72
+  },
+  "selection": "validation chooses checkpoint, calibration fits scale and stack, final test only evaluates"
+}

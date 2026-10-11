@@ -166,3 +166,8 @@ cd service && docker-compose up --build
 | Team Lead, ML Engineer, Backend | Даниил Садчиков | РЭУ     | [@sdd4cop](https://t.me/sdd4cop)                    |
 | ML engineer, Solution Architect              | Мария Касимцева   | РЭУ     | [@Maria_Kasim](https://t.me/Maria_Kasim)                                        |
 | ML engineer              | Даниил Кокорев | РЭУ | [@drkokorev](https://t.me/drkokorev)                                |
+
+
+## Temporal validation
+
+[Reproducible GRU evaluation](temporal_validation/README.md): train-only preprocessing, embargoed chronological splits and independent calibration. Executed checks use synthetic data; competition scores are not re-estimated.

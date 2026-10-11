@@ -36,3 +36,7 @@ hyp1_*.csv
 .DS_Store
 *.pdf
 docs/
+
+temporal_validation/results*/model.pt
+__pycache__/
+.pytest_cache/
